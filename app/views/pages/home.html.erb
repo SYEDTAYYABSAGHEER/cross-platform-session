@@ -9,13 +9,6 @@
 <% end %>
 
 
-<% if current_user != true_user %>
-
-<hr/>
-<p>You (<%= true_user.email %>) are sign in as <%= current_user.email %></p>
-<p><%= link_to "Back to admin", stop_impersonating_users_path %></p>
-<%end%>
-
 <br/>
 
 <%= link_to  "Admin Panel", users_path %>

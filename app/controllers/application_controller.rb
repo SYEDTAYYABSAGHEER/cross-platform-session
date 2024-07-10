@@ -1,3 +1,3 @@
 class ApplicationController < ActionController::Base
- impersonates :user
+#  impersonates :user
 end
